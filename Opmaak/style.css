@@ -86,6 +86,10 @@ section.container2 section:hover {
     background-color: ghostwhite;
 }
 
+section.container3 section:hover {
+    background-color: ghostwhite;
+}
+
 /*--Grid section!--*/
 section.container3 {
     /*--Alle sections in container--*/
