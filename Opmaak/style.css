@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
 }
 
 body {
@@ -10,9 +10,8 @@ body {
 }
 
 /*--Lettertypes----------------*/
-
 h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 p {
@@ -23,24 +22,25 @@ body {
     background-image: url('../Img/bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
-    padding:0;
-    margin:0;
 }
 
 
 /*--de container waar alle boxjes inzitten--*/
 section.container {
-    display: flex;
     max-width: 90vw;
+    
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
+    
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     align-content: center;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    
     transition: all ease-in .25s;
-    margin-top: 50px;
+
 }
 
 /*--elke box die in de container zit--*/
@@ -49,11 +49,13 @@ section.container section {
     min-height: 150px;
     max-width: 150px;
     margin: 5px;
-    justify-content: center;
-    flex-direction: column;
+    
     text-align: center;
+    
     display: flex;
-    transition: all ease-in 0.5s;
+    flex-direction: column;
+    justify-content: center;
+    transition: all ease-in .3s;
 }
 
 section.container section:hover {
@@ -64,17 +66,18 @@ section.container section:hover {
 
 /*--elke box die in de container zit--*/
 section.container2 {
-    display: flex;
     max-width: 90vw;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
+
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     align-content: center;
-    flex-direction: row;
     justify-content: center;
+    
     transition: all ease-in .25s;
-    margin-top: 50px;
 }
 
 /*--elke box die in de container zit--*/
@@ -82,11 +85,14 @@ section.container2 section {
     min-width: 300px;
     margin: 5px;
     height: 50px;
+
+    text-align: center;
+
+    display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-    display: flex;
-    transition: all ease-in 0.5s;
+    
+    transition: all ease-in .3s;
 }
 
 section.container2 section:hover {
@@ -100,7 +106,6 @@ section.container3 section:hover {
 /*--Grid section!--*/
 section.container3 {
     /*--Alle sections in container--*/
-    margin-top: 40px;
     display: grid;
     /*--Display grid--*/
     grid-auto-flow: column;
@@ -120,11 +125,13 @@ section.container3 {
 /*--elke box die in de container zit--*/
 section.container3 section {
     min-width: 150px;
-    margin: 5px;
     height: 90px;
+    padding: 5px;
+
+    text-align: center;
+
     justify-content: center;
     flex-direction: column;
-    text-align: center;
 }
 
 /*--Tussenkopje--*/
@@ -146,7 +153,6 @@ section.container3 section {
 
 
 /*--alle boxes--*/
-
 .box1 {
     background-color: #7D84DE;
     flex: 1;
@@ -211,7 +217,6 @@ section.container3 section {
     /*--Grid scrollen op desktop weghalen--*/
     section.container3 {
         overflow-x: hidden;
-
     }
 
     /*--FontAwesome icoon verplaatsen met paar procenten--*/
