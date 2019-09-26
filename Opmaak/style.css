@@ -28,7 +28,6 @@ section.container {
     max-width: 90vw;
     margin: 0 auto;
     margin-top: 20px;
-
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
@@ -52,7 +51,6 @@ section.container section {
     flex-direction: column;
     text-align: center;
     display: flex;
-
     transition: all ease-in 0.5s;
 }
 
@@ -69,7 +67,6 @@ section.container2 {
     max-width: 90vw;
     margin: 0 auto;
     margin-top: 20px;
-
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
@@ -86,7 +83,6 @@ section.container2 section {
     border: 1px solid #4a4a4a;
     margin: 5px;
     height: 50px;
-
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -132,3 +128,26 @@ section.container2 section:hover {
     background-color: #a449eb;
     flex: 1;
 }
+
+.box7 {
+    background-color: #9400D3;
+}
+
+.box8 {
+    background-color: #33fcff;
+}
+
+.box9 {
+    background-color:  #991519; 
+}
+
+.box10 {
+    background-color:  #030303;
+    color: white;
+}
+.box10 p {
+    color: white;
+}
+/*--Einde van alle boxes--*/
+
+
