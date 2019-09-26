@@ -33,9 +33,7 @@ section.container {
     align-content: center;
     flex-direction: row;
     justify-content: flex-start;
-
     transition: all ease-in .25s;
-
     margin-top: 50px;
 }
 
@@ -46,7 +44,6 @@ section.container section {
     max-width: 150px;
     border: 1px solid #4a4a4a;
     margin: 5px;
-
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -72,7 +69,6 @@ section.container2 {
     align-content: center;
     flex-direction: row;
     justify-content: center;
-
     transition: all ease-in .25s;
     margin-top: 50px;
 }
@@ -87,12 +83,21 @@ section.container2 section {
     flex-direction: column;
     text-align: center;
     display: flex;
-
     transition: all ease-in 0.5s;
 }
 
 section.container2 section:hover {
     background-color: ghostwhite;
+}
+
+section.container3 {
+    margin-top: 40px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, auto);
+    overflow-x: scroll;
+    justify-items: center;
+    grid-gap: 1;
 }
 
 
@@ -152,20 +157,14 @@ section.container2 section:hover {
 
 
 
-/*--Footer werkt niet lekker voor mobile TODO--*/
-/*--Footer--*/
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    text-align: center;
-}
+@media screen and (min-width: 768px) {
 
-.credit { /*--Kan geen tekst stylen in footer tag dus aparte class gegeven--*/
-    color: white;
-}
 
-/*--Einde Footer--*/
+    section.container3 {
+        overflow: hidden;
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 20px;
+        justify-items: center;
+    }
+}
