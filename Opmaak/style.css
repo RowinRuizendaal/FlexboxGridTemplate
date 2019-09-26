@@ -108,6 +108,15 @@ section.container3 {
     margin: 10px;
 }
 
+section.container3 section {
+    min-width: 150px;
+    margin: 5px;
+    height: 90px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 .grid {
     /*--Tussenkopje--*/
     color: white;
@@ -187,10 +196,11 @@ section.container3 {
 
 
     section.container3 {
-        overflow: hidden;
         display: grid;
         grid-auto-flow: column;
         grid-gap: 10px;
         justify-items: center;
+        overflow-x: hidden;
+
     }
 }
