@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #212121;
+    font-family: sans-serif;
+}
+
+/*--Lettertypes----------------*/
+
+h1 {
+    font-size: 1.5em;
+}
+
+p {
+    color: #212121;
+}
+
+
+
+/*--de container waar alle boxjes inzitten--*/
+section.container {
+    display: flex;
+    background-color: #4a4a4a;
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    transition: all ease-in .25s;
+
+    margin-top: 50px;
+}
+
+/*--elke box die in de container zit--*/
+section.container section {
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    border: 1px solid #4a4a4a;
+    margin: 5px;
+
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+
+    transition: all ease-in 0.5s;
+}
+
+section.container section:hover {
+    background-color: ghostwhite;
+}
+
+
+
+/*--elke box die in de container zit--*/
+section.container2 {
+    display: flex;
+    background-color: #4a4a4a;
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+
+    transition: all ease-in .25s;
+    margin-top: 50px;
+}
+
+/*--elke box die in de container zit--*/
+section.container2 section {
+    min-width: 300px;
+    border: 1px solid #4a4a4a;
+    margin: 5px;
+    height: 50px;
+
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+
+    transition: all ease-in 0.5s;
+}
+
+section.container2 section:hover {
+    background-color: ghostwhite;
+}
+
+
+
+/*--alle boxes--*/
+
+.box1 {
+    background-color: #7D84DE;
+    flex: 1;
+}
+
+.box2 {
+    background-color: #F24719;
+    flex: 1;
+}
+
+.box3 {
+    background-color: #FFD648;
+    flex: 1;
+}
+
+.box4 {
+    background-color: #97C173;
+    flex: 1;
+}
+
+.box5 {
+    background-color: #FC8C3E;
+    flex: 1;
+}
+
+.box6 {
+    background-color: #a449eb;
+    flex: 1;
+}
