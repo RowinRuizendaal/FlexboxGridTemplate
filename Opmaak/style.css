@@ -187,7 +187,7 @@ section.container3 section {
 .fa-arrows-alt-h {
     color: white;
     font-size: 40px;
-    margin-left: 48.5%;
+    margin-left: 45.5%;
     margin-bottom: 10px;
 }
 
@@ -205,6 +205,10 @@ section.container3 section {
         justify-items: center;
         overflow-x: hidden;
 
+    }
+
+    .fa-arrows-alt-h {
+        margin-left: 48.5%;
     }
     
 }
