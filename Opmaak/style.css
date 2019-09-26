@@ -184,6 +184,12 @@ section.container3 section {
     background-color: #af3d5c ;
 }
 
+.fa-arrows-alt-h {
+    color: white;
+    font-size: 40px;
+    margin-left: 48.5%;
+    margin-bottom: 10px;
+}
 
 /*--Einde van alle boxes--*/
 
@@ -200,4 +206,5 @@ section.container3 section {
         overflow-x: hidden;
 
     }
+    
 }
