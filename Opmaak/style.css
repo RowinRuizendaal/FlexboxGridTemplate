@@ -91,13 +91,37 @@ section.container2 section:hover {
 }
 
 section.container3 {
+    /*--Alle sections in container--*/
     margin-top: 40px;
     display: grid;
+    /*--Display grid--*/
     grid-auto-flow: column;
+    /*--Maken er column van of row--*/
     grid-template-columns: repeat(auto-fill, auto);
+    /*--Autofill hoeveel er op het scherm passen--*/
     overflow-x: scroll;
+    /*--Scroll x voor mobiel--*/
     justify-items: center;
-    grid-gap: 1;
+    /*--Centeren van items--*/
+    grid-gap: 10px;
+    /*--Ruimte tussen elk blok 10px--*/
+    margin: 10px;
+}
+
+.grid {
+    /*--Tussenkopje--*/
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.Flexbox {
+    /*--Tussenkopje--*/
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -143,20 +167,22 @@ section.container3 {
 }
 
 .box9 {
-    background-color:  #991519; 
+    background-color: #991519;
 }
 
 .box10 {
-    background-color:  #030303;
+    background-color: #030303;
     color: white;
 }
+
 .box10 p {
     color: white;
 }
+
 /*--Einde van alle boxes--*/
 
 
-
+/*--Media query voor het scrollen op desktop uitschakelen--*/
 @media screen and (min-width: 768px) {
 
 
@@ -164,7 +190,7 @@ section.container3 {
         overflow: hidden;
         display: grid;
         grid-auto-flow: column;
-        grid-gap: 20px;
+        grid-gap: 10px;
         justify-items: center;
     }
 }
