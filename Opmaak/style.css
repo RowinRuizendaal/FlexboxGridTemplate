@@ -19,6 +19,13 @@ p {
     color: #212121;
 }
 
+body {
+    background-image: url('../Img/bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0;
+    margin:0;
+}
 
 
 /*--de container waar alle boxjes inzitten--*/
