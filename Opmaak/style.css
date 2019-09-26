@@ -188,8 +188,8 @@ section.container3 section {
 
 /*--Einde van alle boxes--*/
 
-   /*--Font Awesome icon--*/
-   .fa-arrows-alt-h {
+/*--Font Awesome icon--*/
+.fa-arrows-alt-h {
     color: white;
     font-size: 40px;
     margin-left: 45.5%;
@@ -198,15 +198,16 @@ section.container3 section {
 
 
 
-/*--Media query voor het scrollen op desktop uitschakelen--*/
+/*--Media query voor Desktop--*/
 @media screen and (min-width: 768px) {
 
-
+    /*--Grid scrollen op desktop weghalen--*/
     section.container3 {
         overflow-x: hidden;
 
     }
 
+    /*--FontAwesome icoon verplaatsen met paar procenten--*/
     .fa-arrows-alt-h {
         margin-left: 48.5%;
     }
