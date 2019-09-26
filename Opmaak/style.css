@@ -108,6 +108,7 @@ section.container3 {
     margin: 10px;
 }
 
+/*--elke box die in de container zit--*/
 section.container3 section {
     min-width: 150px;
     margin: 5px;
