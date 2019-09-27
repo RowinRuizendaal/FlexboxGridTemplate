@@ -24,13 +24,15 @@ body {
     background-size: cover;
 }
 
+main {
+    min-height: 100vh;
+}
 
 /*--de container waar alle boxjes inzitten--*/
 section.container {
     max-width: 90vw;
     
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto 0;
     
     display: flex;
     flex-wrap: wrap;
@@ -67,8 +69,7 @@ section.container section:hover {
 /*--elke box die in de container zit--*/
 section.container2 {
     max-width: 90vw;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto 0;
 
     display: flex;
     flex-wrap: wrap;
@@ -83,8 +84,8 @@ section.container2 {
 /*--elke box die in de container zit--*/
 section.container2 section {
     min-width: 300px;
-    margin: 5px;
     height: 50px;
+    margin: 5px;
 
     text-align: center;
 
@@ -155,32 +156,26 @@ section.container3 section {
 /*--alle boxes--*/
 .box1 {
     background-color: #7D84DE;
-    flex: 1;
 }
 
 .box2 {
     background-color: #F24719;
-    flex: 1;
 }
 
 .box3 {
     background-color: #FFD648;
-    flex: 1;
 }
 
 .box4 {
     background-color: #97C173;
-    flex: 1;
 }
 
 .box5 {
     background-color: #FC8C3E;
-    flex: 1;
 }
 
 .box6 {
     background-color: #a449eb;
-    flex: 1;
 }
 
 .box7 {
@@ -219,6 +214,23 @@ section.container3 section {
 
 
 
+
+
+/*footer styling*/
+footer {
+    min-height: 100px;
+    padding: 3rem;
+    background-color: #050505;
+    box-sizing: border-box;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+
+
 /*--Media query voor Desktop--*/
 @media screen and (min-width: 768px) {
 
@@ -231,5 +243,4 @@ section.container3 section {
     .fa-arrows-alt-h {
         margin-left: 48.5%;
     }
-
 }
