@@ -210,6 +210,14 @@ section.container3 section {
 }
 
 
+/*-- In progress html css --*/
+
+.informatie h1 {
+    color: white;
+    text-align: center;
+}
+
+
 
 /*--Media query voor Desktop--*/
 @media screen and (min-width: 768px) {
