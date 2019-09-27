@@ -6,10 +6,10 @@
 
 body {
     background-color: #212121;
+    /*--Lettertype----------------*/
     font-family: sans-serif;
 }
 
-/*--Lettertypes----------------*/
 h1 {
     font-size: 1.5rem;
 }
@@ -31,16 +31,13 @@ main {
 /*--de container waar alle boxjes inzitten--*/
 section.container {
     max-width: 90vw;
-    
     margin: 50px auto 0;
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     align-content: center;
     justify-content: center;
-    
     transition: all ease-in .25s;
 
 }
@@ -51,9 +48,7 @@ section.container section {
     min-height: 150px;
     max-width: 150px;
     margin: 5px;
-    
     text-align: center;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,14 +65,12 @@ section.container section:hover {
 section.container2 {
     max-width: 90vw;
     margin: 50px auto 0;
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     align-content: center;
     justify-content: center;
-    
     transition: all ease-in .25s;
 }
 
@@ -86,13 +79,10 @@ section.container2 section {
     min-width: 300px;
     height: 50px;
     margin: 5px;
-
     text-align: center;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
     transition: all ease-in .3s;
 }
 
@@ -105,20 +95,20 @@ section.container3 section:hover {
 }
 
 /*--Grid section!--*/
+/*--Alle sections in container--*/
 section.container3 {
-    /*--Alle sections in container--*/
-    display: grid;
     /*--Display grid--*/
-    grid-auto-flow: column;
+    display: grid;
     /*--Maken er column van of row--*/
-    grid-template-columns: repeat(auto-fill, auto);
+    grid-auto-flow: column;
     /*--Autofill hoeveel er op het scherm passen--*/
-    overflow-x: scroll;
+    grid-template-columns: repeat(auto-fill, auto);
     /*--Scroll x voor mobiel--*/
-    justify-items: center;
+    overflow-x: scroll;
     /*--Centeren van items--*/
-    grid-gap: 10px;
+    justify-items: center;
     /*--Ruimte tussen elk blok 10px--*/
+    grid-gap: 10px;
     margin: 10px;
 }
 
@@ -128,9 +118,7 @@ section.container3 section {
     min-width: 150px;
     height: 90px;
     padding: 5px;
-
     text-align: center;
-
     justify-content: center;
     flex-direction: column;
 }
