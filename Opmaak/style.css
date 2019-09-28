@@ -13,9 +13,9 @@ body {
 hr {
     display: block;
     margin: 0.5em 30% 0.5em 30%;
-  border-style: inset;
-  border-width: 2px;
-  color: white;
+    border-style: inset;
+    border-width: 2px;
+    color: white;
 }
 
 h1 {
