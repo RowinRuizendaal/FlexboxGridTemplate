@@ -202,7 +202,7 @@ section.container3 section {
     font-size: 1.5rem;
 }
 
-.informatie button {
+.informatie a {
     background-color: red;
     border: none;
     color: white;
@@ -213,6 +213,13 @@ section.container3 section {
     font-size: 16px;
     margin: 40% 0px 0px 30%;
 
+}
+
+.informatie p {
+    color: white;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 0.8rem;
 }
 
 
@@ -246,4 +253,23 @@ footer p {
     .fa-arrows-alt-h {
         margin-left: 48.5%;
     }
+
+    /*--Margin aanpassen van anchor link op desktop--*/
+    .informatie a {
+        margin: 10% 0px 0px 47%;
+    
+    }
+    
+    /*--Pas de paragrafen aan--*/
+    .informatie p {
+        margin-top: 1%;
+        font-size: 1.2rem;
+    }
+
+    /*--Hover voor desktop--*/
+    .informatie a:hover {
+        background-color: green;
+    }
+
+
 }
