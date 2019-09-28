@@ -141,6 +141,8 @@ section.container3 section {
 
 
 
+
+
 /*--alle boxes--*/
 .box1 {
     background-color: #7D84DE;
@@ -223,9 +225,6 @@ section.container3 section {
 }
 
 
-
-
-
 /*footer styling*/
 footer {
     min-height: 100px;
@@ -237,6 +236,12 @@ footer {
 footer p {
     color: white;
     text-align: center;
+}
+
+/*--Grid met foto's--*/
+.container3 img {
+    height: 90%;
+    width: 100%;
 }
 
 
