@@ -68,7 +68,7 @@ section.container section:hover {
 }
 
 
-
+/*--Flexbox breed--*/
 /*--elke box die in de container zit--*/
 section.container2 {
     max-width: 90vw;
@@ -81,7 +81,7 @@ section.container2 {
     justify-content: center;
     transition: all ease-in .25s;
 }
-
+/*--Flexbox breed--*/
 /*--elke box die in de container zit--*/
 section.container2 section {
     min-width: 300px;
@@ -94,13 +94,10 @@ section.container2 section {
     transition: all ease-in .3s;
 }
 
-section.container2 section:hover {
+section.container2 section:hover, section.container3 section:hover {
     background-color: ghostwhite;
 }
 
-section.container3 section:hover {
-    background-color: ghostwhite;
-}
 
 /*--Grid section!--*/
 /*--Alle sections in container--*/
