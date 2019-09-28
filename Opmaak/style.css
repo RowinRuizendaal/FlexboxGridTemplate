@@ -123,6 +123,24 @@ section.container3 section {
     flex-direction: column;
 }
 
+/*--Grid section rows!--*/
+/*--Alle sections in container--*/
+section.container4 {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(auto-fill, auto);
+    justify-items: center;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+/*--Grid section rows!--*/
+/*--elke box die in de container zit--*/
+section.container4 section {
+    min-width: 150px;
+    height: 100px;
+}
+
 /*--Tussenkopje--*/
 .grid {
     color: white;
@@ -239,7 +257,7 @@ footer p {
 }
 
 /*--Grid met foto's--*/
-.container3 img {
+.container3 img, .container4 img {
     height: 90%;
     width: 100%;
 }
@@ -275,6 +293,8 @@ footer p {
     .informatie a:hover {
         background-color: green;
     }
+
+    .section
 
 
 }
