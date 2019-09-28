@@ -268,13 +268,6 @@ footer p {
     width: 100%;
 }
 
-.fa-github {
-    color: white;
-    position: absolute;
-    right: 20%;
-    font-size: 30px;
-}
-
 
 
 
@@ -297,6 +290,8 @@ footer p {
         margin: 10% 0px 0px 47%;
 
     }
+
+
 
     /*--Pas de paragrafen aan--*/
     .informatie p {
