@@ -257,9 +257,16 @@ footer p {
 }
 
 /*--Grid met foto's--*/
-.container3 img, .container4 img {
+.container3 img,
+.container4 img {
     height: 90%;
     width: 100%;
+}
+
+.page2 {
+    height: 50vh;
+    width: 100%;
+    background-color: white;
 }
 
 
@@ -280,9 +287,9 @@ footer p {
     /*--Margin aanpassen van anchor link op desktop--*/
     .informatie a {
         margin: 10% 0px 0px 47%;
-    
+
     }
-    
+
     /*--Pas de paragrafen aan--*/
     .informatie p {
         margin-top: 1%;
@@ -295,6 +302,4 @@ footer p {
     }
 
     .section
-
-
 }
