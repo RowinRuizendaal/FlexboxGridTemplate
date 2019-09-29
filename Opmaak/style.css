@@ -3,6 +3,9 @@
     padding: 0;
     border: none;
 }
+b{
+    font-size: 25px;
+}
 
 body {
     background-color: #212121;
